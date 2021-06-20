@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -20,6 +20,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Overview
 
+This is a small exercise to build a responsive card component. The objective is to make the layout look as close as possible to the original template, on both the desktop and mobile devices. It is a beginner's exercise so only HTML and CSS are recommended.
+
 ### The challenge
 
 Users should be able to:
@@ -28,83 +30,57 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Desktop version](./screenshots/screenshot-desktop.jpg)
+![Mobile version](./screenshots/screenshot-desktop.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/asab07/responsive-stats-card-1)
+- Live Site URL: [Live site](https://your-live-site-url.com)
 
 ## My process
+
+**1. Plan:** I started out by looked at some card examples built in plain CSS, without using any frameworks.
+
+**2. Design:** The design phase did take much time since the design basis and the assets were already available through the solution template.
+
+**3. Development:** I built the card using HTML and CSS. I used SASS to facilitate the workflow and get some practice in it. I tested the website on Google Chrome and Firefox at different viewports.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- SASS
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I spent a lot of time initially to make the mobile version as close as possible to the provided template. This meant fine-tuning the element margins, paddings, font sizes, as well as choice of scales.
 
-To see how you can add code snippets, see below:
+_The lesson learnt_: try and make the design look close to the template, but not necessarily identical. It would have saved me some time, and the fine tuning could have been done at the end.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Another mistake I made, that cost me some additional time, was to try and accomplish this in as few lines of code as possible, especially in the CSS. For instance, I had originally intended to do it without using media queries, and there are some clever solutions out there, such as the [Media Query-less Responsive Card Component](https://css-tricks.com/how-to-make-a-media-query-less-card-component/). However, is best to keep things simple when you are starting out, and especially for simple projects.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+_The lesson learned_: use textbook knowledge unless you have a reason not to, especially in the beginning.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+The two main ways I'd like to redo this project are:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Without using any media queries
+- Using grid instead of flex-box
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Kevin Powell's Responsive CSS Card Design](https://www.youtube.com/watch?v=51DbAwcmqD8&t=625s) - Kevin's video helped me understand the mobile-first workflow and design a responsive card. I really liked teaching style and explanations and would recommend his channel to others.
+- [CSS Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is a great guide to understanding CSS Flexbox - an amazing article with visual aids and examples. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Adeel Sabir](https://github.com/asab07)
+- Frontend Mentor - [@asab07](https://www.frontendmentor.io/profile/asab07)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would like to thank the team and Frontendmentor.io for sharing their knowledge and providing an excellent platform to new learners.

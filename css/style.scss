@@ -1,3 +1,4 @@
+// Fonts
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 
@@ -34,6 +35,7 @@ body {
   line-height: 1.6;
 }
 
+// Start with mobile-first design
 .card {
   background: $cardBackground;
   display: flex;
@@ -48,6 +50,7 @@ body {
   &__image {
     position: relative !important;
 
+    // This pseudo element allows adding overlay color on the image
     &::after {
       content: "";
       position: absolute;
@@ -80,13 +83,11 @@ body {
     margin: 0;
     padding: 0;
     height: 200px;
-    // border: 2px solid white;
     margin: 1em auto 0.1em auto;
   }
 
   &__headline {
     font-size: 2rem;
-    // border: 1px solid white;
     padding-bottom: 0.5em;
 
     span {
@@ -105,47 +106,80 @@ body {
   }
 
   li p {
+    font-family: $secondaryFont;
     text-transform: uppercase;
     font-size: 0.8rem;
     color: $statWhite;
   }
 }
 
+// Responsiveness for desktop version
 @media (min-width: 960px) {
+  // Image right, text left
   .card {
-    width: 90%;
+    width: 100%;
     flex-direction: row-reverse;
     text-align: left;
-    max-height: 350px;
+    max-height: 365px;
 
     &__image {
-      flex: 1 1 400px;
+      flex: 1 1 480px;
     }
 
     &__text {
-      margin: 2em 5em 2em 3em;
-      flex: 1 1 300px;
+      margin: 4em 5em 2em 4em;
+      flex: 1 1 350px;
       padding: 0;
+    }
+
+    // Added to match the solution template
+    &__headline {
+      line-height: 1.2;
     }
 
     &__description {
       padding: 0;
+      font-size: 0.85rem;
     }
 
+    // Display stats in row
     &__stats-list {
       flex-direction: row;
       justify-content: space-between;
       margin-top: 3em;
+
+      h3 {
+        font-size: 1.35rem;
+      }
     }
   }
+  // Hide mobile image
   .img-mobile {
     display: none !important;
-    width: 0%;
   }
 
+  // Display desktop image
   .img-desktop {
     display: block !important;
     width: 100%;
     height: auto;
+  }
+}
+
+.attribution {
+  margin: 2em auto;
+  a {
+    text-decoration: none;
+    color: $accent;
+
+    &:hover,
+    &:focus {
+      background: rgb(75, 74, 74);
+      opacity: 0.9;
+    }
+
+    &:visited {
+      color: hsla(199, 63%, 54%, 0.6);
+    }
   }
 }
