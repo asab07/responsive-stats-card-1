@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/asab07/responsive-stats-card-1)
-- Live Site URL: _Coming soon..._
+- Live Site URL: [GitHub Repo](https://asab07.github.io/responsive-stats-card-1/)
 
 ## My process
 
