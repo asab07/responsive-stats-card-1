@@ -30,13 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop version](./screenshots/screenshot-desktop.jpg)
-![Mobile version](./screenshots/screenshot-desktop.jpg)
+![Desktop version](./screenshots/screenshot-desktop.png)
+![Mobile version](./screenshots/screenshot-mobile.png)
 
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/asab07/responsive-stats-card-1)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Live Site URL: _Coming soon..._
 
 ## My process
 
@@ -60,9 +60,9 @@ I spent a lot of time initially to make the mobile version as close as possible 
 
 _The lesson learnt_: try and make the design look close to the template, but not necessarily identical. It would have saved me some time, and the fine tuning could have been done at the end.
 
-Another mistake I made, that cost me some additional time, was to try and accomplish this in as few lines of code as possible, especially in the CSS. For instance, I had originally intended to do it without using media queries, and there are some clever solutions out there, such as the [Media Query-less Responsive Card Component](https://css-tricks.com/how-to-make-a-media-query-less-card-component/). However, is best to keep things simple when you are starting out, and especially for simple projects.
+Another mistake I made, that cost me some additional time, was to try and accomplish this in as few lines of code as possible, especially in the CSS. For instance, I had originally intended to do it without using media queries, and there are some clever solutions out there, such as [Media Query-less Responsive Card Component](https://css-tricks.com/how-to-make-a-media-query-less-card-component/). However, is best to keep things simple when you are starting out, and especially for simple projects.
 
-_The lesson learned_: use textbook knowledge unless you have a reason not to, especially in the beginning.
+_The lesson learnt_: use textbook knowledge unless you have a reason not to, especially in the beginning.
 
 ### Continued development
 
